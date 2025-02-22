@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.natamus.adventuremodetweaks.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EnderPearlItemMixin",
+    "FishingHookMixin",
+    "MinecartItemAccessor",
+    "LevelMixin",
+    "ServerPlayerMixin"
+  ],
+  "client": [
+    "WorldCreationUiStateMixin"
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
