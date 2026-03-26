@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "adventuremodetweaks",
+  "version": "1.3",
+
+  "name": "Adventure Mode Tweaks",
+  "description": "Various Adventure Mode mechanic improvements! Paintings, Item Frames, Minecarts, Boats and more.",
+  "authors": [ "Rick South" ],
+  "contact": {
+    "homepage": "https://serilum.com/mod/adventure-mode-tweaks",
+    "sources": "https://github.com/Serilum/Adventure-Mode-Tweaks",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Adventure%20Mode%20Tweaks"
+  },
+
+  "license": "All Right Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": { "main": [ "com.natamus.adventuremodetweaks.ModFabric" ], "client": [ "com.natamus.adventuremodetweaks.ModFabricClient" ], "modmenu": [ "com.natamus.adventuremodetweaks.fabric.config.IntegrateModMenu" ] },
+  "mixins": [
+    "adventuremodetweaks.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "fabric-api": "*",
+    "minecraft": ">=26.1",
+    "java": ">=25",
+    "collective": ">=8.15"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Donate <3" : "https://serilum.com/donate"
+      }
+    }
+  },
+
+  "contributors": [
+	  " ",
+	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
+	  " ",
+	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  " ",
+	  "Membership sponsors:",
+	  " Alister",
+	  " Andrean Olgo",
+	  " aternosorg",
+	  " Cherriesaurus",
+	  " Michael W. S.",
+	  " t128",
+	  " Tyler Behl",
+	  " William Innes",
+	  " XAgent",
+	  " ตัวตรึง พระนคร"
+  ]
+}
