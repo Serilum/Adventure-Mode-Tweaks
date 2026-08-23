@@ -12,7 +12,7 @@ public class NeoForgeEntityEvents {
 	}
 
 	@SubscribeEvent
-	public static void onEntityInteract(PlayerInteractEvent.EntityInteractSpecific e) {
+	public static void onEntityInteract(PlayerInteractEvent.EntityInteract e) {
 		if (!EntityEvents.onEntityInteract(e.getEntity(), e.getLevel(), e.getHand(), e.getTarget(), null)) {
             e.setCanceled(true);
         }
