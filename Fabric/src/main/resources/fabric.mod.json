@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "id": "adventuremodetweaks",
-  "version": "1.4",
+  "version": "1.5",
 
   "name": "Adventure Mode Tweaks",
   "description": "Various Adventure Mode mechanic improvements! Paintings, Item Frames, Minecarts, Boats and more.",
-  "authors": [ "Rick South" ],
+  "authors": [ "Serilum" ],
   "contact": {
     "homepage": "https://serilum.com/mod/adventure-mode-tweaks",
     "sources": "https://github.com/Serilum/Adventure-Mode-Tweaks",
@@ -16,7 +16,7 @@
   "icon": "icon.png",
 
   "environment": "*",
-  "entrypoints": { "main": [ "com.natamus.adventuremodetweaks.ModFabric" ], "client": [ "com.natamus.adventuremodetweaks.ModFabricClient" ], "modmenu": [ "com.natamus.adventuremodetweaks.fabric.config.IntegrateModMenu" ] },
+  "entrypoints": { "main": [ "com.serilum.adventuremodetweaks.ModFabric" ], "client": [ "com.serilum.adventuremodetweaks.ModFabricClient" ], "modmenu": [ "com.serilum.adventuremodetweaks.fabric.config.IntegrateModMenu" ] },
   "mixins": [
     "adventuremodetweaks.mixins.json"
   ],
@@ -26,7 +26,7 @@
     "fabric-api": "*",
     "minecraft": ">=26.3",
     "java": ">=25",
-    "collective": ">=8.39"
+    "collective": ">=8.40"
   },
 
   "custom": {
@@ -41,7 +41,7 @@
 	  " ",
 	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
 	  " ",
-	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  "If you would like to contribute too, check out https://serilum.com/donate",
 	  " ",
 	  "Membership sponsors:",
 	  " Andrean Olgo",
